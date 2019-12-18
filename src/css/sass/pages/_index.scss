@@ -252,6 +252,10 @@
   .find-workspace {
     .list-workspace {
       padding: 1rem 4rem;
+
+      .chevron {
+        right: -2rem;
+      }
     }
   }
 

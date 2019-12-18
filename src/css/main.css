@@ -391,6 +391,9 @@ body {
   .find-workspace .list-workspace {
     padding: 1rem 4rem;
   }
+  .find-workspace .list-workspace .chevron {
+    right: -2rem;
+  }
 
   #how-it-works div {
     padding-left: 1.5rem;
