@@ -365,6 +365,7 @@ body {
   flex: 0 0 50%;
   background-color: #fafafa;
   font-size: 14px;
+  padding-bottom: 1.5rem;
 }
 #contact-us .text p {
   color: gray;
@@ -387,6 +388,9 @@ body {
 }
 
 @media screen and (max-width: 992px) {
+  #main-section h1 {
+    padding: 1rem 1.5rem;
+  }
   #main-section .searchbar-group {
     width: 100%;
   }
@@ -429,7 +433,7 @@ body {
   }
 
   #our-client .client-list {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   #our-client .client-list img {
     margin: 1rem;

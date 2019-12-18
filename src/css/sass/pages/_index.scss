@@ -225,6 +225,7 @@
     flex: 0 0 50%;
     background-color: #fafafa;
     font-size: $font-m;
+    padding-bottom: 1.5rem;
 
     p {
       color: $c-grey;
@@ -249,6 +250,10 @@
 
 @media screen and (max-width: 992px) {
   #main-section {
+    h1 {
+      padding: 1rem 1.5rem;
+    }
+
     .searchbar-group {
       width: 100%;
 
@@ -304,7 +309,7 @@
 
   #our-client {
     .client-list {
-      flex-direction: column;
+      flex-wrap: wrap;
 
       img {
         margin: 1rem;
