@@ -1,0 +1,93 @@
+#footer {
+  padding: 3rem 7rem 0 7rem;
+  font-size: $font-m;
+
+  .first-footer {
+    margin-bottom: 3rem;
+
+    .footer-group {
+      flex: 0 0 25%;
+
+      &.end {
+        padding-left: 2.5rem;
+      }
+
+      h6 {
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+
+      a {
+        display: block;
+        margin: 0;
+        color: $c-grey;
+      }
+
+      .custom-select {
+        position: relative;
+        border-radius: 0;
+        width: auto;
+        margin-right: $gutter-m;
+        font-size: $font-l;
+        height: auto;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        background: #fff url("../assets/chevron.png") no-repeat right 0.3rem
+          center;
+        background-size: 25px;
+
+        &:not(:last-child) {
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .second-footer {
+    color: $c-grey;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+    margin-bottom: 0.5rem;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    div {
+      a {
+        color: $c-grey;
+        margin-right: 0.5rem;
+      }
+
+      .socmed-group {
+        i:not(:last-child) {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #footer {
+    padding: 1.5rem;
+
+    .first-footer {
+      flex-wrap: wrap;
+
+      .footer-group {
+        padding-top: 1.5rem;
+        flex: 0 0 calc(50% - 1rem);
+
+        &:nth-child(even) {
+          margin-right: 0.5rem;
+        }
+
+        &.end {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}

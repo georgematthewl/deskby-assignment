@@ -1,0 +1,26 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+}
+
+.arrow-up {
+  display: none;
+  color: $primary-red;
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  z-index: 99;
+  padding: 15px;
+  @include transition(0.3s);
+
+  &:hover {
+    color: $primary-red-darken;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1300px !important;
+  }
+}

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./src/assets/favicon.ico">
+
+    <!-- Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/ca203fb07d.js" crossorigin="anonymous"></script>
+    <script src="./src/js/index.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/main.css">
+
+    <title>Deskby</title>
+</head>
+
+<body>
+    <nav id="nav" class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"><img class="logo" src="./src/assets/logo.png"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#first-section">Find a space</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#how-it-works">How it works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-us">Need a help?</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto right-side">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i>Cart(0)</a>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-primary">Add a space</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="main-section" class="d-flex justify-content-center align-items-center flex-column">
+        <h1>Find your next Working Desk,<br>Private Office or Event Space</h1>
+        <div class="searchbar-group d-flex container flex-wrap">
+            <input type="text" class="searchbar form-control" placeholder="Find a place">
+            <select class="custom-select">
+                <option value="0">All Spaces</option>
+                <option value="1">Working Desk</option>
+                <option value="2">Meeting Room</option>
+                <option value="3">Event Space</option>
+                <option value="4">Serviced Office</option>
+                <option value="5">Virtual Office</option>
+            </select>
+            <button class="btn btn-primary">SEARCH</button>
+        </div>
+    </section>
+    <section id="first-section" class="find-workspace container d-flex justify-content-center flex-column">
+        <h4>Find your workspace</h4>
+        <div class="list-workspace d-flex justify-content-center container">
+            <div class="item">
+                <img src="./src/assets/working-space.jpg" alt="Working Desk">
+                <p>Working Desk</p>
+            </div>
+            <div class="item">
+                <img src="./src/assets/meeting.jpg" alt="Meeting Room">
+                <p>Meeting Room</p>
+            </div>
+            <div class="item">
+                <img src="./src/assets/conference.jpg" alt="Conference Room">
+                <p>Conference Room</p>
+            </div>
+            <div class="item">
+                <img src="./src/assets/private-office.jpg" alt="Private Office">
+                <p>Private Office</p>
+            </div>
+        </div>
+        <div class="list-workspace d-flex justify-content-center container">
+            <div class="item">
+                <img src="./src/assets/corporate-dining.jpg" alt="Working Desk">
+                <p>Corporate Dining</p>
+            </div>
+            <div class="item grow">
+                <img src="./src/assets/event-space.jpg" alt="Meeting Room">
+                <p>Event Space</p>
+            </div>
+            <div class="item">
+                <img src="./src/assets/virtual-office.png" alt="Conference Room">
+                <p>Virtual Office</p>
+            </div>
+        </div>
+    </section>
+    <section class="find-workspace d-flex justify-content-center align-items-center flex-column container">
+        <h4>Top Listings</h4>
+        <div class="list-workspace d-flex justify-content-center container">
+            <div class="chevron"><i class="fas fa-2x fa-chevron-right"></i></div>
+            <div class="item">
+                <img src="./src/assets/nice-meeting-room-1.png" alt="Working Desk">
+                <div class="listing-caption">
+                    <p><b>Rp590,000</b> Nice meeting room ...</p>
+                    <p>Jakarta . Meeting Room</p>
+                    <p class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        8 reviews
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./src/assets/nmr-2.png" alt="Meeting Room">
+                <div class="listing-caption">
+                    <p><b>Rp590,000</b> Nice meeting room ...</p>
+                    <p>Jakarta . Meeting Room</p>
+                    <p class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        8 reviews
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./src/assets/nmr-3.png" alt="Conference Room">
+                <div class="listing-caption">
+                    <p><b>Rp590,000</b> Nice meeting room ...</p>
+                    <p>Jakarta . Meeting Room</p>
+                    <p class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        8 reviews
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./src/assets/nmr-4.png" alt="Private Office">
+                <div class="listing-caption">
+                    <p><b>Rp590,000</b> Nice meeting room ...</p>
+                    <p>Jakarta . Meeting Room</p>
+                    <p class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        8 reviews
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="how-it-works">
+        <div class="container d-flex justify-content-center align-items-center flex-column">
+            <h4>How It Works</h4>
+            <div class="workflow d-flex">
+                <div class="step d-flex flex-column justify-content-center align-items-center">
+                    <img src="./src/assets/map.png">
+                    <h6>1. Browse Unique Spaces</h6>
+                    <p>Explore the marketplace to find a space that fits your needs. From urban lofts and studios to
+                        modern meeting spaces, we've got you covered.</p>
+                </div>
+                <div class="step d-flex flex-column justify-content-center align-items-center">
+                    <img src="./src/assets/map.png">
+                    <h6>2. Connect with Hosts</h6>
+                    <p>We've designed Peerspace to save you time and hassle. Narrow your search, message hosts directly
+                        and confirm details through our website or mobile app.</p>
+                </div>
+                <div class="step d-flex flex-column justify-content-center align-items-center">
+                    <img src="./src/assets/map.png">
+                    <h6>3. Book & Enjoy</h6>
+                    <p>Finalize your reservation using our secure online booking process and make the most of your
+                        creative space. We'll make sure your offsite, event or production is memorable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="our-client" class="container">
+        <h4>Our Clients</h4>
+        <div class="client-list d-flex justify-content-center align-items-center">
+            <img src="./src/assets/clients/google.png">
+            <img src="./src/assets/clients/unilever.png">
+            <img src="./src/assets/clients/uber.png">
+            <img src="./src/assets/clients/zalora.png">
+            <img src="./src/assets/clients/foodpanda.png">
+            <img src="./src/assets/clients/mediacorp.png">
+        </div>
+    </section>
+    <section id="contact-us" class="container d-flex">
+        <div class="img">
+            <img src="./src/assets/bg.jpeg">
+        </div>
+        <div class="text d-flex flex-column justify-content-center align-items-start">
+            <h2>Planning<br>something big?</h2>
+            <p>For large and complex events, our team<br>of experts can help you every step of the way.</p>
+            <button class="btn btn-primary">CONTACT US</button>
+        </div>
+    </section>
+    <footer id="footer" class="container">
+        <div class="first-footer d-flex justify-content-center">
+            <div class="footer-group">
+                <h6>Deskby</h6>
+
+                <a href="#">About us</a>
+                <a href="#">Careers</a>
+                <a href="#">Press</a>
+                <a href="#">Policies</a>
+                <a href="#">Help</a>
+                <a href="#">Diversity & Belonging</a>
+            </div>
+            <div class="footer-group">
+                <h6>Discover</h6>
+
+                <a href="#">Trust & Safety</a>
+                <a href="#">Travel Credit</a>
+                <a href="#">Gift Cards</a>
+                <a href="#">Deskby Citizen</a>
+                <a href="#">Business Travel</a>
+                <a href="#">Things To Do</a>
+                <a href="#">Deskbymag</a>
+            </div>
+            <div class="footer-group">
+                <h6>Hosting</h6>
+
+                <a href="#">Why Host</a>
+                <a href="#">Hospitality</a>
+                <a href="#">Responsible Hosting</a>
+                <a href="#">Community Center</a>
+            </div>
+            <div class="footer-group end d-flex flex-column">
+                <select class="custom-select">
+                    <option value="0">English</option>
+                    <option value="1">Indonesia</option>
+                </select>
+                <select class="custom-select">
+                    <option value="0">IDR</option>
+                    <option value="1">USD</option>
+                </select>
+            </div>
+        </div>
+        <div class="second-footer d-flex">
+            <p>© Deskby, Inc.</p>
+
+            <div class="ml-auto">
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Site Map</a>
+                <div class="socmed-group d-inline-block">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="arrow-up" class="arrow-up">
+        <i class="fa fa-arrow-circle-up fa-3x"></i>
+    </div>
+</body>
+
+</html>

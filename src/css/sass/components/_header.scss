@@ -1,0 +1,80 @@
+nav {
+  &.bg-dark {
+    background-color: transparent !important;
+    @include transition(0.3s);
+
+    &.bg-nav {
+      background-color: rgba(0, 0, 0, 0.7) !important;
+    }
+  }
+
+  .navbar-brand {
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+
+    .logo {
+      height: 25px;
+    }
+  }
+
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-size: $font-m;
+        color: white;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        @include transition(0.2s);
+
+        &:hover {
+          color: $primary-red;
+          cursor: pointer;
+        }
+      }
+
+      .btn.btn-primary {
+        background-color: $primary-red;
+        border-color: $primary-red;
+        font-size: $font-m;
+        margin-left: 1rem;
+        @include transition(0.3s);
+
+        &:hover {
+          background-color: $primary-red-darken;
+          border-color: $primary-red-darken;
+          cursor: pointer;
+        }
+      }
+
+      i {
+        margin-right: $gutter-s;
+      }
+    }
+
+    &.right-side {
+      padding-right: $gutter-xxl - 16;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding-right: 0.5rem;
+          padding-left: 0.5rem;
+        }
+
+        .btn.btn-primary {
+          margin-left: 0.5rem;
+        }
+      }
+    }
+
+    .navbar-collapse {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding-bottom: $gutter-l;
+    }
+  }
+}
