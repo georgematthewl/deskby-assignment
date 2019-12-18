@@ -387,6 +387,20 @@ body {
   cursor: pointer;
 }
 
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+  .find-workspace .list-workspace {
+    padding: 1rem 4rem;
+  }
+
+  #how-it-works div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  #our-client .client-list img {
+    margin: 1.5rem;
+  }
+}
 @media screen and (max-width: 992px) {
   #main-section h1 {
     padding: 1rem 1.5rem;
