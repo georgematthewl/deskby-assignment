@@ -148,7 +148,7 @@ body {
   display: none;
   color: #ff2857;
   position: fixed;
-  bottom: 8px;
+  bottom: 12px;
   right: 8px;
   z-index: 99;
   padding: 15px;
